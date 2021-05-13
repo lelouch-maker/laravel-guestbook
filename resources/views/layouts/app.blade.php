@@ -11,6 +11,15 @@
 </head>
 <body>
     @include('inc.header')
+
+    <div class="alert alert-info">
+        <p>@include('inc.messages')</p>
+    </div>
+
+
+
+
+
 </body>
 </html>
 

@@ -11,9 +11,7 @@ Route::get('/add-comment', function () {
     return view('add-comment');
 })->name('create_comment');
 
-Route::get('/all-comment', function () {
-    return view('all-comment');
-})->name('view_comment');
+Route::get('/all-comment', 'App\\Http\\Controllers\\CommentController@allData')->name('view_comment');
 
 
-Route::post('/comment/submit', 'CommentController@create')->name('send_data');
+Route::post('/comment/submit', 'App\\Http\\Controllers\\CommentController@create')->name('send_data');

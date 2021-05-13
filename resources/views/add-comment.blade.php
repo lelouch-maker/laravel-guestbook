@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
-@section('title-block')Добавить запись@endsection
+@section('title-block')Добавить запись @endsection
 
 @section('content')
- здесь можно добавить запись
+
+
+
 
     <form action={{ route('send_data') }} method="post">
         @csrf

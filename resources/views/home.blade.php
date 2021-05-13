@@ -3,7 +3,7 @@
 @section('title-block')Главная страница@endsection
 
 @section('content')
-Это главная страница
+Добрый день вас приветствует главная страница тэстового задания.
 @endsection
 
 
